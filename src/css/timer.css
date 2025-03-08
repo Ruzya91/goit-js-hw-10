@@ -1,0 +1,40 @@
+.input-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 32px;
+  margin-left: 20px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.value {
+  text-align: center;
+  font-size: 40px;
+}
+
+.button {
+  background-color: #4e75ff !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+  width: 75px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: #6c8cff !important;
+}
+.button:disabled {
+  background-color: #989898 !important;
+}

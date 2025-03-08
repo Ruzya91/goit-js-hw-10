@@ -3,8 +3,12 @@
   display: inline-block;
   padding: 4px 8px;
   margin-top: 32px;
+  margin-bottom: 32px;
   border: 1px solid;
   border-radius: 8px;
+  text-align: center;
+  width: 58px;
+  height: 24px;
 }
 .back-link::before {
   content: '';
